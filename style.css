@@ -1,0 +1,119 @@
+*{
+    margin: 0 auto;
+    padding:0 auto;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    line-height: 30px;
+}
+.head{
+    font-size: 18px;
+    min-height: 100px;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    box-shadow: 0px 4px 3px gray;
+}
+.logo_counter{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.head_text{
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter{
+    width: 90%;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: url(img/low-angle-photo-of-balconies-2462015\ 1.png);
+    width: 100%;
+}
+.slider_h1, .slider_text , .slider_btn{
+    color: white;
+}
+.slider_counter{
+    padding-top: 10%;
+    padding-left: 2%;
+}
+.slider_h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.slider_text{
+    font-size: 35px;
+    margin-top: 3%;
+    line-height: 50px;
+}
+.slider_btn{
+    margin-left: 0;
+    font-size: 20px;
+    margin-top: 6%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    height: 78px;
+    width: 10%;
+    background-color:#FF9900 ;
+}
+.dots{
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 10%;
+    
+}
+.dot{
+    min-height: 50px;
+    font-size: 30px;
+}
+.informationn{
+    margin-top: 10%;
+    max-width: 75%;
+    margin-left: 0;
+}
+.information_header{
+    font-size: 35px;
+}
+.information_text{
+    margin-top: 5%;
+    font-size: 20px;
+}
+.information_img{
+    margin-top: 5%;
+    
+}
+.information_img_left{
+  
+    background-image: url(img/Rectangle\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    margin-left: 0;
+}
+.img_left_block{
+    width: 85%;
+    
+ 
+    padding-top:450px ;
+    align-items: center;
+    
+}
+.block_bg{
+    min-height:196px ;
+    align-items: center;
+    display: flex;
+    background-color: rgb(#0000, green, blue);
+    height: 45%;
+}
+.left_block_text{
+    color: white;
+    width: 55%;
+}
